@@ -87,7 +87,7 @@ body {
 .custom-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #3498db;
+    background-color: #bee3ac;
     color: #fff;
     font-size: 16px;
     border: none;
@@ -97,7 +97,7 @@ body {
   }
   
   .custom-button:hover {
-    background-color: #2980b9;
+    background-color: #bdd481;
   }
 
   /* 自定义滚动条的宽度和背景 */
@@ -174,3 +174,7 @@ body {
   .show-popup {
     display: block;
   }
+
+
+
+
