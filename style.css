@@ -178,3 +178,50 @@ body {
 
 
 
+
+
+
+
+
+
+/* 为按钮添加样式 */
+.stylish-button {
+    background-color: #4CAF50; /* 绿色背景 */
+    color: white; /* 白色文字 */
+    padding: 10px 20px; /* 上下10px，左右20px的内边距 */
+    border: none; /* 移除边框 */
+    border-radius: 5px; /* 圆角边框 */
+    cursor: pointer; /* 鼠标悬停时变为手指形状 */
+    transition: background-color 0.3s ease; /* 背景颜色变化的过渡效果 */
+    outline: none; /* 移除焦点时的轮廓线 */
+}
+
+/* 按钮悬停时的样式 */
+.stylish-button:hover {
+    background-color: #45a049; /* 悬停时变暗的绿色背景 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 悬停时的阴影效果 */
+}
+
+/* 按钮被激活（如点击时）的样式 */
+.stylish-button:active {
+    background-color: #3e8e41; /* 点击时更深的绿色背景 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 点击时的阴影效果 */
+    transform: translateY(2px); /* 点击时按钮下移的视觉效果 */
+}
+
+
+
+.ip-info-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #ffffff;
+    padding: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* 确保信息框显示在内容上方 */
+}
+.ip-info, .device-count {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
